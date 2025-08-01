@@ -1,0 +1,39 @@
+{
+  "initial_shape": [
+    541909,
+    8
+  ],
+  "initial_memory": "193.78 MB",
+  "missing_data": {
+    "InvoiceNo": 0,
+    "StockCode": 0,
+    "Description": 1454,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "UnitPrice": 0,
+    "CustomerID": 135080,
+    "Country": 0
+  },
+  "data_types": {
+    "InvoiceNo": "object",
+    "StockCode": "object",
+    "Description": "object",
+    "Quantity": "int64",
+    "InvoiceDate": "object",
+    "UnitPrice": "float64",
+    "CustomerID": "float64",
+    "Country": "object"
+  },
+  "final_shape": [
+    442666,
+    24
+  ],
+  "final_memory": "293.18 MB",
+  "data_quality": {
+    "missing_values": "116226",
+    "duplicates": "4999",
+    "unique_customers": 4170,
+    "unique_products": 3688,
+    "countries": 38
+  }
+}
